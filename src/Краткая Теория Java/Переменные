@@ -1,0 +1,24 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        byte num = 2;
+        int i = 123123;
+        long l = 234234242;
+
+        float num2 = 123.143f;
+        double num3;
+        num3 = 12321.234f;
+
+        char symbol = 'A';
+
+        boolean isHappy = true;
+
+        String str = "Hello World!";
+
+        System.out.println("Variable = " + num);
+        System.out.println("Char: " + symbol);
+        System.out.println("Str: " + str);
+    }
+}

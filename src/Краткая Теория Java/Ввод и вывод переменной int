@@ -1,0 +1,17 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner num = new Scanner(System.in);//Создаем новый объект num, который идет от класса Сканер
+        //Каждый раз когда мы обращаеся к объекту num и будем брать его функции, мы будет получать различные
+        // Значения от пользователя
+
+        int i;
+        i = num.nextInt(); //Для каждого типа переменных свой next...
+        System.out.println("I = " + i);
+    }
+
+}

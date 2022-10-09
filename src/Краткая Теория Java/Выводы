@@ -1,0 +1,11 @@
+package com.company; // Пакет
+
+public class Main { //Класс
+
+    public static void main(String[] args) { //Функция в классе - метод
+        System.out.println("Hello, Termos!"); // println - Перевод на другую строку
+        System.out.print("Hello, Termos!"); // print - На этой строке
+        System.out.println("Hello, Termos!");
+        System.out.println("Hello, Termos!");
+    }
+}
