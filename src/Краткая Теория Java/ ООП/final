@@ -1,0 +1,37 @@
+Если используем final для переменной, это означает что мы создаем константу, которую не можем изменить
+
+если используем final для класса, это означает что у класса не может быть классов наследников:
+public final class Person{
+}
+
+package com.company;
+
+
+import com.company.oop.Person;
+import com.company.oop.Student;
+
+public class Main {
+    public static void main(String[] args) {
+        final float pi = 3.14f; // создаем неизменяемую константу
+        System.out.println(Person.sum); // С  помощью static без создания объекта выводим переменную
+        Person.write("HELLOO"); // Благодаря static
+        Person termos = new Person(); // объект класса Person
+        termos.height = 190;
+        termos.weight = 81.5f;
+        termos.say("Hi,i am termos");
+        System.out.println(termos.height);
+
+        Person igor = new Person();
+        igor.height = 174;
+        igor.weight = 90f;
+        System.out.println(igor.weight);
+
+        Person dimon = new Person( 160, 66.4f);
+        System.out.println(dimon.weight);
+
+        Student misha = new Student(189, 77, 1);
+        System.out.println(misha.corse);
+        System.out.println(misha.height);
+    }
+
+}

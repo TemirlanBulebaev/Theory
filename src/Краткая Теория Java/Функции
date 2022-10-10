@@ -1,0 +1,28 @@
+package com.company;
+
+
+public class Main {
+
+    public static void main(String[] args) { //Функция или метод
+        func (23, 44); //Передаем в функцию два параметра
+        int temp = intFunc(10,2);
+        System.out.println(temp);
+
+    }
+
+    //void - функция выполняется и ничего не возрващает
+    //public - чтобы функция принадлежала классу и мы могли к ней обращаться из любых других классов
+    //static - функция принадлежит конкретно к классу, можем обращаться с этого или других классов
+    public static void func (int a, int b) { //В скобочках указываем параметры, которые принимает эта функция
+        int res;
+        res = a + b;
+        System.out.println("Result = " + res);
+    }
+
+    public static int intFunc( int a, int b) { //Вовзращает значение типы integer
+        int res;
+        res = a + b;
+        return res;
+    }
+
+}

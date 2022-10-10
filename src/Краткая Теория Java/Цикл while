@@ -1,0 +1,14 @@
+package com.company;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        int i = 0; // присваиваем заранее
+        while (i < 10) { //условие
+            System.out.println("i = " + i);
+            i++; // что делаем с переменной условия
+        }
+    }
+
+}

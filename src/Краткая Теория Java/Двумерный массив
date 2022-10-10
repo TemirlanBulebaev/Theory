@@ -1,0 +1,25 @@
+package com.company;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        int [][] arr = new int[][] { //Каждый элемент - другой массива
+                {23, 44, 12, 23},
+                {26, 42, 0, 34},
+                {23, 44, 265, -1}
+        };
+
+        arr[1][1] = -55;
+        System.out.println(arr[1][1]);
+
+        for (int i = 0; i < 3; i++){// по строкам
+            for (int j = 0; j < 4; j++) { // по столбцам
+                System.out.print(arr[i][j] + "  ");
+            }
+            System.out.println();
+        }
+
+    }
+
+}

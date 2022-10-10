@@ -1,0 +1,14 @@
+package com.company;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        int i = 10;
+        do { // тут сначала один раз выполнится код и только потом будет проверенно условие
+            System.out.println("do while work 1");
+            // тут еще должно быть условие изменения i, по типу i++;
+        } while (i < 4); // условие не логично, но код один раз сработает
+    }
+
+}

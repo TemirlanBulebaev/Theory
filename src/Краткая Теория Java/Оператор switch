@@ -1,0 +1,24 @@
+package com.company;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        int num = 23;
+        //num++; для работы default
+        switch (num) {// Сюда помещаем переменную, которую хоти проверить
+            case 12:
+                System.out.println("Num = " + num);
+                break;
+            case 23:
+                System.out.println("Num = " + num);
+                break;
+            default: //Выполняется в любом случае, если все кейсы не прошли проверку
+                //switch кейс можно писать без кострукции default
+                System.out.println("default work");
+
+
+        }
+    }
+
+}

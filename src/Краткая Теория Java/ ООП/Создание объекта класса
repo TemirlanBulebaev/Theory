@@ -1,0 +1,20 @@
+package com.company;
+
+
+import com.company.oop.Person;
+
+public class Main {
+    public static void main(String[] args) {
+        Person termos = new Person(); // объект класса Person
+        termos.height = 190;
+        termos.weight = 81.5f;
+        termos.say("Hi,i am termos");a
+        System.out.println(termos.height);
+
+        Person igor = new Person();
+        igor.height = 174;
+        igor.weight = 90f;
+        System.out.println(igor.weight);
+    }
+
+}

@@ -1,14 +1,12 @@
 package com.company;
 
-import java.util.Scanner;
+
+import com.company.oop.Person;
+import com.company.oop.Student;
 
 public class Main {
-
     public static void main(String[] args) {
-        Scanner str = new Scanner(System.in);
-        String symbols;
-        symbols = str.nextLine();
-        System.out.println("Stroka: " + symbols);
+        //вставляем код из теории
     }
 
 }

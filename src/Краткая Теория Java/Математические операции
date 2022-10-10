@@ -1,0 +1,22 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        float num_1 = 32.2f, num_2 = 10.5f, res;
+        System.out.println("+: " + (num_1+num_2));
+        System.out.println("-: " + (num_1-num_2));
+        System.out.println("/: " + (num_1/num_2));
+        System.out.println("*: " + (num_1*num_2));
+        System.out.println("%: " + (num_1%num_2)); //Остаток от деления
+
+        res = num_1+num_2;
+        System.out.println("num_1 + num_2 = " + res);
+        res += 20f; // res = res + 20f - работает на всех операциях +=, -=, *=, /=, %=
+        System.out.println("res + 20f = " + res);
+        res++; // Прибавляем единицу - работает на вычитании res--;
+    }
+}
+ы
