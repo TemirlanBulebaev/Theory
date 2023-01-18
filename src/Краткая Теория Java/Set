@@ -1,0 +1,20 @@
+        //Set - интерфейс фреймворка коллекшион лист
+        List<String> list = new ArrayList<String>();
+        list.add("str1");
+        list.get(0);
+        list.remove(0);
+        for (String item : list) {
+            System.out.println(item);
+        }
+
+        Set<String> set = new HashSet<>();
+        set.add("str1");
+
+        Iterator<String> iterator = list.iterator();
+        //в Set нет получения элементов по индексу
+        Iterator<String> iterator1 = set.iterator();
+        while (iterator1.hasNext()) {
+            System.out.println(iterator1.next());
+        }
+        set.remove("str1");//Удаляет по значению
+        //Set хранит уникальные значения

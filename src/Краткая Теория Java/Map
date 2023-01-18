@@ -1,0 +1,29 @@
+не является отдельным интерфейсом
+Map очень насто используется
+        //Map при6нимсает не один дженерик а два
+
+        Map<String, Integer> map  = new HashMap<>();//ключ значение  + может быть TreeMap
+        map.put("key", 2);//Добавление элемента
+        map.put("key1", 4);
+        map.put("key2", 5);
+
+        //в этом интерфейсе нет итераторпа
+
+        //Ключ может быть любым форматом , но не должен повторяться
+        Integer key = map.get("key2"); // Получение значениея по ключу
+        System.out.println(key);
+
+        map.remove("key");//удаление элемента
+
+        //вывод всех ключей
+        Set<String> strings = map.keySet();
+        for (String k : strings){
+            System.out.println(k);
+        }
+        //вывод всех значений
+        for (Integer v : map.values()){
+            System.out.println(v);
+        }
+
+        //есть ли такой ключ в коллекции
+        System.out.println(map.containsKey("key2"));

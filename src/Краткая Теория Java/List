@@ -1,0 +1,18 @@
+        //List интервейс фреймворка коллекшион
+        List<Integer> list = new ArrayList<>();
+        list.add(2);//Индекс 0
+        list.add(5);//Индекс 0
+
+//        for (int i : list){
+//            System.out.println(i);
+//        }
+        //list.remove(0);//методы списка
+        Iterator<Integer> iterator = list.iterator();//интерфейс итератор
+        iterator.hasNext();//проверяет есть ли следующий элемент
+        iterator.next();//двигается к следующему элементу
+        while (iterator.hasNext()){ // как применять итератор
+            System.out.println(iterator.next());
+        }
+        boolean empty = list.isEmpty();//есть ли в нашей коллекции элементы
+
+        System.out.println(empty);
